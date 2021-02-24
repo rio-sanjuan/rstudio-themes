@@ -9,11 +9,6 @@
   color: #eae5e5;
 }
 
-.ace_print-margin {
-  width: 1px;
-  background: #e8e8e8;
-}
-
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
   background-color: #000000;
   color: #ecebe4;
