@@ -1,6 +1,8 @@
-# One Dark Pro for RStudio
+# GitHub Dark for RStudio
 
-A 'Total IDE' build of the One Dark Pro theme for RStudio!
+A 'Total IDE' build of the GitHub Dark theme for RStudio.
+
+![](palette.png)
 
 ## Installation
 
@@ -28,8 +30,6 @@ run `install.packages('rstudioapi')` and try again.
 - In RStudio go to Global Options -> Appearance, and click the `Add...` button under Editor Theme
 - Navigate to the downloaded `github-dark.rstheme` file, hit `Open` and you're good to go
 
-## Info
+### Info
 
-This theme was adapted from [this theme](https://github.com/StylishThemes/GitHub-Dark/blob/master/src/themes/github/github-dark.css).
-
-The editor font I use is [Fira Code](https://github.com/tonsky/FiraCode), and the majority of the UI font is [Open Sans](https://fonts.google.com/specimen/Open+Sans). It is not necessary to install these.
+This theme was adapted from [this theme](https://github.com/StylishThemes/GitHub-Dark/blob/master/src/themes/github/github-dark.css). The editor font I use is [Fira Code](https://github.com/tonsky/FiraCode), and the majority of the UI font is [Open Sans](https://fonts.google.com/specimen/Open+Sans). It is not necessary to install these.
