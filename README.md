@@ -13,7 +13,7 @@ A 'Total IDE' build of the GitHub Dark theme for RStudio.
 Run the following snippet in the RStudio Console:
 
 ```r
-rstudioapi::addTheme('https://raw.githubusercontent.com/johnnybarrels/rstudio-one-dark-pro-theme/master/OneDarkPro.rstheme', apply=TRUE, force=TRUE)
+rstudioapi::addTheme("https://raw.githubusercontent.com/rtjohnson12/rstudio-themes/master/src/github-dark.rstheme", apply=TRUE, force=TRUE)
 ```
 
 Note that this will override any other theme named 'GitHub Dark' you may have (this can be controlled by removing the `force=True` argument).
