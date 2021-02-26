@@ -321,7 +321,7 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
 
 .ace_gutter-active-line {
   background-color: #3E3D32;
-  color: red !important;
+  color: white !important;
 }
 
 .ace_gutter-cell.ace_breakpoint {
@@ -469,18 +469,24 @@ label[for="gwt-uid-54"]{
   background: rgb(18, 95, 189) !important;
 }
 
+/* file explorer */
+.GCHYANPCMH table td {
+  background-color: var(--background-color);
+  border: 0px solid var(--background-color);
+}
+
 /*table head at git*/
-.GD15MCFCDTC thead th, .GD15MCFCASC thead th, .GD15MCFCEMC thead th {
+.GD15MCFCDTC thead th, .GD15MCFCASC thead th, .GD15MCFCEMC thead th, .GCHYANPCITC thead th, .GCHYANPCITC tbody td {
     color: white;
     border: none !important;
     border-top: rgb(75,75,75) !important;
     border-bottom: rgb(75,75,75);
-    background: rgb(49,49,51) !important;
+    background: var(--background-color) !important;
     outline: none;
 }
 
 tr.GD15MCFCPLC {
-    background-color: rgb(64,62,63)
+    background-color: var(--background-color);
 }
 
 /*table at Git*/
@@ -488,7 +494,6 @@ td.GD15MCFCHNC.GD15MCFCJNC, .GD15MCFCJOC {
   border: none !important;
   border-bottom: 1px solid black !important;
 }
-
 
 .GD15MCFCFTC.GD15MCFCAW, .GD15MCFCMTC {
   background: rgb(48,48,48);
@@ -623,7 +628,7 @@ table[role='tabpanel'] .gwt-TabLayoutPanel .gwt-TabLayoutPanelContentContainer {
 }
 
 .GD15MCFCGP .gwt-TabLayoutPanelContentContainer, .GD15MCFCOID, .GD15MCFCNLD {
-    background: rgb(37,39,40) !important;
+    background: var(--background-color) !important;
     border: 1px solid rgb(92,93,94);
     border-radius: 3px;
 }
@@ -740,7 +745,7 @@ div .gwt-Label.GD15MCFCF3 {
 
 
 .ace_line .ace_constant.ace_language {
-  color: #e26b73;
+  color: #FB8532;
 }
 
 /* Bold and italics in Markdown */
@@ -841,7 +846,7 @@ span .GFUP41PBN-B.ace_constant.ace_language {
 }
 
 .ace_keyword.ace_operator {
-  color: #79B8FF;
+  color: #959DA5;
 
 }
 
