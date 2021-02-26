@@ -215,7 +215,7 @@ div#rstudio_container, .gwt-SplitLayoutPanel-HDragger, .gwt-SplitLayoutPanel-VDr
 
 /* data viewer table borders */
 .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable tbody td, .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th {
-  border-color: 959DA5
+  border-color: #959DA5
 }
 
 /*button labels in Git commit page*/
@@ -259,7 +259,7 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
 }
 
 /*window resize buttons in top right of each pane*/
-.GD15MCFCCS.rstheme_multiPodUtilityTabArea {
+.rstheme_multiPodUtilityTabArea {
     background: var(--background-color) !important;
 }
 
