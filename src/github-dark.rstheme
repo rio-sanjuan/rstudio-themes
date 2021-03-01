@@ -196,9 +196,37 @@ textarea.GD15MCFCFVC.GD15MCFCFVC-readonly {
   background: none !important;
 }
 
+/* Git popup */
+.popupMiddleCenterInner.popupContent {
+  background-color: vars(--background-color);
+  color: white;
+  border-radius: 3px 3px 3px 3px !important;
+}
+
+/* Review Changes Dialog for Git Commit */
+.GD15MCFCDTC, .GD15MCFCASC {
+  background: rgb(33, 35, 38);
+  color: white;
+}
+
 /* color behind window panes and latter two appear as bg of git commit pane */
-div#rstudio_container, .gwt-SplitLayoutPanel-HDragger, .gwt-SplitLayoutPanel-VDragger {
+div#rstudio_container {
   background: var(--background-color) !important;
+}
+
+/* background of git commit pane */
+.gwt-SplitLayoutPanel-HDragger, .gwt-SplitLayoutPanel-VDragger {
+  background: var(--border-color) !important;
+}
+
+/* button labels in Git commit page */
+.GD15MCFCMU {
+  color: white;
+}
+
+/*seach bar in git commit no idea why its three separate images*/
+.GD15MCFCCTC .search .GD15MCFCLS, .GD15MCFCCTC .search .rstheme_center, .GD15MCFCCTC .search .GD15MCFCAR {
+    filter: invert(75%);
 }
 
 /* actual checkMARK */
@@ -216,11 +244,6 @@ div#rstudio_container, .gwt-SplitLayoutPanel-HDragger, .gwt-SplitLayoutPanel-VDr
 /* data viewer table borders */
 .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable tbody td, .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th {
   border-color: #959DA5
-}
-
-/*button labels in Git commit page*/
-.GD15MCFCMU {
-  color: white;
 }
 
 .dialogMiddleCenterInner button.gwt-Button.GD15MCFCH1 {
@@ -300,11 +323,6 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
     border-radius: 4px;
     background: #0F141A;
     border-color: #464646;
-}
-
-/*seach bar in git commit no idea why its three separate images*/
-.GD15MCFCCTC .search .GD15MCFCLS, .GD15MCFCCTC .search .rstheme_center, .GD15MCFCCTC .search .GD15MCFCAR {
-    filter: invert(75%);
 }
 
 /* Search panes placeholder text */
@@ -407,12 +425,6 @@ body pre, body code {
   background: #161D27;
 }
 
-/*Review Changes Dialog for Git Commit*/
-.GD15MCFCDTC, .GD15MCFCASC {
-  background: rgb(33, 35, 38);
-  color: white;
-}
-
 .GD15MCFCPSC {
   background: var(--background-color);
   color: white;
@@ -441,13 +453,6 @@ label[for="gwt-uid-54"]{
   color: white;
 }
 
-/*Git popup*/
-.popupMiddleCenterInner.popupContent {
-  background-color: rgba(33, 35, 38, .5);
-  color: white;
-  border-radius: 3px 3px 3px 3px !important;
-}
-
 .gwt-MenuBar>table {
     padding: 5px;
     border-radius: 3px 3px 3px 3px !important;
@@ -470,9 +475,13 @@ label[for="gwt-uid-54"]{
 }
 
 /* file explorer */
-.GCHYANPCMH table td {
+.GCHYANPCMH table td, .GCHYANPCH0C {
   background-color: var(--background-color);
   border: 0px solid var(--background-color);
+}
+
+.rstheme_toolbarWrapper {
+  background-color: #161D27;
 }
 
 /*table head at git*/
@@ -481,8 +490,18 @@ label[for="gwt-uid-54"]{
     border: none !important;
     border-top: rgb(75,75,75) !important;
     border-bottom: rgb(75,75,75);
-    background: var(--background-color) !important;
+    background-color: var(--background-color) !important;
     outline: none;
+}
+
+/* git commit table head */
+.GCHYANPCDWC tbody td {
+  
+}
+
+/* Git add */
+.GCHYANPCPWC {
+  background-color: white;
 }
 
 tr.GD15MCFCPLC {
@@ -638,6 +657,23 @@ table[role='tabpanel'] .gwt-TabLayoutPanel .gwt-TabLayoutPanelContentContainer {
   color: white;
 }
 
+.GCHYANPCBX tbody tr, .GCHYANPCDX tbody tr {
+  background-color: green;
+  background: blue;
+}
+
+.GCHYANPCG0C table td, .GCHYANPCC0C table td {
+  background-color: vars(--background-color);
+  color: white !important;
+}
+
+/* git commit middle box */
+.GCHYANPCA1C div {
+  border-color: --vars(border-color);
+  background-color: #161B22;
+  color: white;
+}
+
 
 /*selected button at top of options dialog*/
 .gwt-TabLayoutPanelTab.GD15MCFCH.gwt-TabLayoutPanelTab-selected, table.GD15MCFCJW.GD15MCFCLW {
@@ -648,12 +684,13 @@ table[role='tabpanel'] .gwt-TabLayoutPanel .gwt-TabLayoutPanelContentContainer {
 
 .gwt-TabLayoutPanelTab.GD15MCFCH.gwt-TabLayoutPanelTab-selected .gwt-Label {
     color: white !important;
+    background-color: --vars(background-color);
 }
 
 /* unselected buttons at top of dialog*/
 div.gwt-TabLayoutPanelTab.GD15MCFCH {
   background: linear-gradient(0deg, rgba(39,39,39,1) 0%, rgba(45,45,45,1) 100%);
-  color: rgb(160, 160, 160) !important;
+  color: white !important;
   border-color: rgba(96,96,97) !important;
 }
 
@@ -727,7 +764,7 @@ div .gwt-Label.GD15MCFCF3 {
   color: black;
 }
 
-/* Pane Layout tab backgrounds in Gloab Options */
+/* Pane Layout tab backgrounds in Gloabal Options */
 .GFUP41PBHRB td.GFUP41PBHRB,
 .GGBOEFPDNNB td.GGBOEFPDNNB,
 .GCHYANPCKRB td.GCHYANPCKRB {
