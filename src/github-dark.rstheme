@@ -653,13 +653,29 @@ table[role='tabpanel'] .gwt-TabLayoutPanel .gwt-TabLayoutPanelContentContainer {
 }
 
 .GD15MCFCEPC {
-  background: rgb(46,48,51);
+  background-color: vars(--background-color);
   color: white;
 }
 
-.GCHYANPCBX tbody tr, .GCHYANPCDX tbody tr {
-  background-color: green;
-  background: blue;
+.GCHYANPCN1 {
+  background-color: #EEEEF0;
+}
+
+.GCHYANPCCX button {
+  color: black;
+}
+
+.GCHYANPCHX button {
+  color: black;
+}
+
+.GCHYANPCBX tbody tr td, .GCHYANPCDX tbody tr td {
+  background-color: vars(--background-color);
+  color: vars(--background-color);
+}
+
+.GCHYANPCE0C table th {
+  background-color: yellow;
 }
 
 .GCHYANPCG0C table td, .GCHYANPCC0C table td {
