@@ -657,10 +657,6 @@ table[role='tabpanel'] .gwt-TabLayoutPanel .gwt-TabLayoutPanelContentContainer {
   color: white;
 }
 
-.GCHYANPCN1 {
-  background-color: #EEEEF0;
-}
-
 .GCHYANPCCX button {
   color: black;
 }
